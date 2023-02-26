@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/nokdoot/solana#readme",
   "dependencies": {
+    "@solana/spl-token": "^0.3.7",
     "@solana/web3.js": "^1.73.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-jsdoc": "^40.0.0"
   }
 }
